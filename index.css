@@ -49,7 +49,7 @@ header {
 .about-us-content{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 80%;
     padding: 1rem 1rem;
     background-color: white;
     opacity: 0.78;
@@ -112,12 +112,13 @@ header {
 .our-businesses{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
     color: white;
     font-weight: 600;
     text-shadow: black;
     gap: 1rem;
     margin: 1rem;
+    hright: 60vh;
 }
 
 
@@ -182,6 +183,7 @@ header {
     align-self: center;
     font-weight: 900;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 /* FOOTER */
