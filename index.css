@@ -10,7 +10,7 @@ header {
     width: 100%;
     justify-content: space-between;
     border-bottom: solid 1px #E8EEF2;
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 .nav{
@@ -49,7 +49,7 @@ header {
 .about-us-content{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 90vw;
     padding: 1rem 1rem;
     background-color: white;
     opacity: 0.78;
