@@ -112,7 +112,7 @@ header {
 .our-businesses{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 9.5rem;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     color: white;
     font-weight: 600;
     text-shadow: black;
