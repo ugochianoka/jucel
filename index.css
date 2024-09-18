@@ -189,7 +189,8 @@ footer{
     color: white;
     background-color: black;
     margin-bottom: 0;
-    font-weight: 900;
+    font-weight: 500;
+    font-size:0.5rem;
 }
 
 footer p{
