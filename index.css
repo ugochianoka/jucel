@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: "Manrope";
+    letter-spacing: 1px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: solid 1px #E8EEF2;
+    font-size: 0.5rem;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+}
+.logo{
+    padding-left: 1rem;
+    font-weight: 800;
+}
+
+.nav a:hover{
+    background-color: #1A80E5;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/* ABOUT US */
+.about-us {
+    height: 50vh;
+    color: black;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 1rem 1rem;
+    background-color: white;
+    opacity: 0.78;
+    border-radius: 10px;
+    margin: 0 2rem 0 2rem;
+}
+
+.about-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  animation: slideShow 15s infinite;
+}
+
+@keyframes slideShow {
+  0%, 33.33% {
+    background-image: url('/images/construct.jpg');
+    opacity: 1;
+  }
+  33.33%, 66.66% {
+    background-image: url('/images/farms.jpg');
+    opacity: 1;
+  }
+  66.66%, 100% {
+    background-image: url('/images/prope.jpeg');
+    opacity: 1;
+  }
+}
+
+.about-us h2{
+    margin: 0;
+    font-weight: 900;
+}
+
+.about-us button{
+    font-family: "Manrope";
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    margin-right: 0.5em;
+    font-weight: 600;
+}
+
+.explore-btn{
+    background-color: #1A80E5;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/* BUSINESSES SECTION */
+
+.our-businesses{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: 9.5rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: black;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+
+.our-businesses h3{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    width: fit-content;
+    opacity: 0.8;
+    margin: 0;
+}
+.farms{
+    background-image: url("/images/farms.jpg");
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 3px;
+}
+.properties{
+    background: url("/images/housesjuc.jpeg");
+    background-size: cover;
+    padding: 1rem;
+    color: white;
+}
+
+.construction{
+    background-image: url("/images/construction.jpeg");
+    background-size: cover;
+    padding: 1rem;
+    color: white;
+}
+
+/* CORE VALUES */
+
+.core-values {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    margin: 2rem;
+    gap: 2em;
+}
+
+.core-values div{
+    background-color: white;
+    color: black;
+    padding: 0.5em;
+    border-left: 5px solid black;
+    border-radius: 10px;
+    word-spacing: 1px;
+}
+
+.core-values h5{
+   margin: 0;
+   font-weight: 900;
+   font-size: 1.2rem;
+}
+
+.core-values p{
+    margin: 0.5em 0 0 0;
+}
+
+.core-values h4 {
+    display: flex;
+    align-self: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+footer p{
+    text-align: center;
+    padding: 1rem;
+}
