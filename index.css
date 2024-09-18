@@ -10,7 +10,7 @@ header {
     width: 100%;
     justify-content: space-between;
     border-bottom: solid 1px #E8EEF2;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 .nav{
@@ -111,7 +111,7 @@ header {
 
 .our-businesses{
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-columns: 1fr;
     grid-template-rows: 9.5rem;
     color: white;
     font-weight: 600;
@@ -153,7 +153,7 @@ header {
 
 .core-values {
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     margin: 2rem;
     gap: 2em;
 }
