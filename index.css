@@ -130,20 +130,18 @@ header {
     margin: 0;
 }
 .farms{
-    background-image: url("/images/farms.jpg");
     background-size: cover;
     padding: 1rem;
     border-radius: 3px;
 }
+
 .properties{
-    background: url("/images/prope.jpeg");
     background-size: cover;
     padding: 1rem;
     color: white;
 }
 
 .construction{
-    background-image: url("/images/construct.jpg");
     background-size: cover;
     padding: 1rem;
     color: white;
