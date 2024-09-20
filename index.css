@@ -119,6 +119,10 @@ header {
     margin: 1rem;
 }
 
+.our-businesses{
+    width: 100vw;
+}
+
 .our-businesses h3{
     background-color: white;
     color: black;
