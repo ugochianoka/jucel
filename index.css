@@ -120,6 +120,10 @@ header {
     height: 60vh;
 }
 
+.our-businesses img{
+    width: 20%;
+    height: auto;
+}
 
 .our-businesses h3{
     background-color: white;
@@ -130,19 +134,16 @@ header {
     margin: 0;
 }
 .farms{
-    background-size: cover;
     padding: 1rem;
     border-radius: 3px;
 }
 
 .properties{
-    background-size: cover;
     padding: 1rem;
     color: white;
 }
 
 .construction{
-    background-size: cover;
     padding: 1rem;
     color: white;
 }
