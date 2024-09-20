@@ -205,6 +205,10 @@ footer p{
 /* BREAKPOINTS */
 @media(min-width: 768px ) {
     .our-businesses{
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .our-businesses img{
+        width: 30%;
     }
 }
